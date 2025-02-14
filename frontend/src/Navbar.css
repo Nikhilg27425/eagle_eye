@@ -1,0 +1,33 @@
+.navbar{
+    height: 90%;
+    width: 98%;
+    background-color: #CBC0C0;
+    display: flex;
+    justify-content: space-around;
+    align-self:center ;
+    
+
+}
+.btn{
+    color: black;
+    background-color: #CBC0C0;
+    border: none;
+  background: none;
+  outline: none;
+  align-items: center;
+  text-underline-offset: 0;
+  
+}
+.links{
+    color: black;
+    text-underline-offset: 0;
+    position: relative;
+    top: 40%;
+
+    font-family: Inter;
+font-weight: 400;
+text-decoration: none;
+letter-spacing: 0%;
+font-size: larger;
+
+}

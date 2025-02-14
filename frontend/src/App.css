@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.App-wrapper {
+  height: 145vh;
+  width: 100%;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.navbarbox {
+  height: 7%;
+  background-color:#3A5371;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 1%;
 }
+.mainbox
+{
+  height: 86vh;
+  width: 100vw;
 
-.App-link {
-  color: #61dafb;
+  
 }
+.img-main{
+  height: 100%;
+  width: 100vw;
+  overflow: hidden;
+  object-fit: fill;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.footer-box{
+  background-color:#3A5371;
+  height: 45vh;
+  width: 100vw;
+}
+.text-box{
+  position: absolute;
+  top: 70%;
+    height: 50%;
+    width: 30%;
+    color: white;
+    padding-left: 10%;
+    margin: 2%;
+    text-align: center;
+
+}
+.buttons{
+  display: flex;
+  padding: 10%;
+  color: black;
+  font-size: x-small;
+  position: relative;
+  gap: 30;
+  top: 20%;
+  right: 20%;
+  margin: 2%;
+  padding: 4%;
+}
+.main-head{
+  font-family: Inter;
+font-weight: 700;
+width: 40%;
+position: relative;
+font-size: x-large;
+top: 20%;
+left: 2%;
+
+letter-spacing: 0%;
+
+}
+.head{
+  
+  
+  width: 40%;
+  position: relative;
+  font-size: large;
+  top: 23%;
+  text-align: left;
+  
 }
