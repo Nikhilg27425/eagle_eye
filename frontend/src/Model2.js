@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react';
+import axios from 'axios';
 import mainimg from './image 1.png'
 import Navbar from './Navbar';
 import './App.css';
 import Footer from './Footer';
 import './Model1.css'
 import crowd from './crowd.png'
+
+
 
 
 
