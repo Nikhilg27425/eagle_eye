@@ -54,8 +54,8 @@ const UpdatedModel3 = () => {
 
       <div className="updated-mainbox">
         <div style={{ backgroundColor: "#3A5371" }} className="updated-text-box">
-          <h1 style={{ textAlign: "center", color: "black" }}>
-            RISKY WORKPLACE MODEL
+          <h1 style={{ textAlign: "center", color: "white" }}>
+            CROWD PREDICTION MODEL
           </h1>
           {/* <div style={{ display: "flex" }}>
             <div className="updated-boxes" id="updated-box2">

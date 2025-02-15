@@ -9,7 +9,7 @@ import khushi from './girl_pic.jpg'
 
 const Team = () => {
   return  (
-    <div className="App-wrapper ">
+    <div className="App-wrapper " style={{backgroundColor:"#3A5371"}}>
       <div className="navbarbox">
         <Navbar></Navbar>
       

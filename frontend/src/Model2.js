@@ -168,7 +168,7 @@ function CrimePrevention() {
         </div>
 
         <div className="text-box" id="text-box-model2">
-          <h1 style={ { textAlign: "right" }}>CRIME PREVENTION MODEL</h1>
+          <h1 style={ { textAlign: "right"}} className="cpm">RISKY WORKPLACE MODEL</h1>
           <div style={{ display: "flex" }}>
             <div className="boxes" id="box2">
               <h2 className="location-heading">Enter location</h2>
@@ -191,16 +191,17 @@ function CrimePrevention() {
               <div className="file-input">
                 <input type="file" onChange={handleFileChange} accept="video/*" />
               </div>
-              <button className="button"  id="start" onClick={startStreaming}>Start Detection</button>
+              <button className="button"  id="start" onClick={startStreaming}>Start</button>
               <button className="button" onClick={togglePlayback}>
                 {isPlaying ? "Pause" : "Resume"}
               </button>
             </div>
           </div>
+
           <div className="prediction-box" id="model2-pbox">
-          <input type="file" className="upload-btn" accept="video/*" onChange={handleFileChange} />
-          <button className="button"id="uplaod" onClick={handleUpload}>Upload and Start Streaming</button>
-          <p>{uploadStatus}</p>
+          <div><input type="file" className="upload-btn" accept="video/*" onChange={handleFileChange} /></div>
+          <div className="uplo"><button className="button"id="uplaod" onClick={handleUpload}>Upload </button></div>
+          <div><p>{uploadStatus}</p></div>
           {streaming && currentFrame && (
             <div className="result">
               <h3>Processed Video Stream</h3>
