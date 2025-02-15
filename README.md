@@ -118,16 +118,27 @@ This project enhances crowd management, crime prevention, and workplace monitori
    ```bash
    pip install -r requirements.txt
    ```
-3. **Run the Backend**
+3. **Change the directory to backend and run the backend for model_2 on port 8001**
    ```bash
+   cd backend
+   uvicorn main:app --host 0.0.0.0 --port 8001 --reload
+   ```
+3. **Open another terminal and Change the directory to backend_dh and run the backend for model_3 on port 8000**
+   ```bash
+   cd backend_dh
    uvicorn main:app --host 0.0.0.0 --port 8000 --reload
    ```
-4. **Start the Client for Video Capture**
+4. **Start the Client for Video Capture on another terminal**
    ```bash
+   cd backend_dh
    python client.py
    ```
 5. **Launch the Frontend**
-   - Open `index.html` in a web browser.
+   ```bash
+   cd backend_dh
+   npm run start
+   ```
+   
    - Ensure API endpoints are correctly configured.
 
 ---
