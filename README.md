@@ -141,8 +141,8 @@ This project enhances crowd management, crime prevention, and workplace monitori
 
 ##  Contributors
 - **Dhruv Sangal** - Integration, Deployment and Team Coordination
-- **Nikhil Gupta** - Backend API Development and Integration
-- **Khushi Singhal** - Frontend Development & UI Design
+- **Nikhil Gupta** - Backend API Development & UI Design
+- **Khushi Singhal** - Frontend Development
 - **Dhyanesh Anchula** - AI Model Development for Crowd Management
 - **Aditya Sharma** - AI Model Development For Construction Site
 
