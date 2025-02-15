@@ -1,0 +1,47 @@
+.mainbox{
+    background-color: #3A5371;
+    
+  
+}
+#box2{
+    position: absolute;
+    left: 60%;
+    top: 10%;
+
+}
+
+#start{
+    position: absolute;
+    left: 20%;
+    margin: 1%;
+
+}
+#model2-pbox{
+    width: 40%;
+    background-color: rgb(10, 33, 76);
+    border-radius:40px;
+    position: absolute;
+    top: 60%;
+    margin: 10%;
+    padding: 1%;
+    left: 3%;
+}
+#upload-btn{
+    position: absolute;
+    top: 37%;
+    left: 10%;
+   
+
+}
+#uplaod{
+    position: absolute;
+    right:40%;
+    top: 40%;
+}
+
+#result{
+    position: absolute;
+    top: 10;
+    left: 90%;
+    
+}
