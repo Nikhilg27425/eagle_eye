@@ -135,7 +135,7 @@ This project enhances crowd management, crime prevention, and workplace monitori
    ```
 5. **Launch the Frontend**
    ```bash
-   cd backend_dh
+   cd frontend
    npm run start
    ```
    
