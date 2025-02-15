@@ -4,3 +4,8 @@ numpy
 opencv-python
 ultralytics
 websockets
+fastapi
+uvicorn
+requests
+pydantic
+base64
