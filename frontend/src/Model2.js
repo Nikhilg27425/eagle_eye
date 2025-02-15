@@ -28,7 +28,7 @@ function CrimePrevention() {
   const ws = useRef(null);
 
   useEffect(() => {
-    ws.current = new WebSocket("ws://localhost:8000/video_feed");
+    ws.current = new WebSocket("ws://localhost:8001/video_feed");
 
     ws.current.onmessage = (event) => {
       const ctx = canvasRef.current.getContext("2d");
@@ -59,7 +59,7 @@ function CrimePrevention() {
     formData.append("file", selectedFile);
     setUploadStatus("Uploading...");
     try {
-      const response = await axios.post("http://localhost:8000/upload_video/", formData, {
+      const response = await axios.post("http://localhost:8001/upload_video/", formData, {
         headers: {
           "Content-Type": "multipart/form-data"
         }
@@ -74,7 +74,7 @@ function CrimePrevention() {
 
   // Open a WebSocket connection to receive processed frames
   const startStream = () => {
-    wsRef.current = new WebSocket("ws://localhost:8000/ws/video_stream");
+    wsRef.current = new WebSocket("ws://localhost:8001/ws/video_stream");
     wsRef.current.onmessage = (event) => {
       // Update the current frame using the base64 string received
       const frameData = event.data;
