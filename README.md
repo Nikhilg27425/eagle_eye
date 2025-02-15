@@ -12,7 +12,7 @@ CCTV Surveillance with AI is an advanced security and monitoring system that int
    - [Standard API Usage](#standard-api-usage)
    - [Execution Flow](#execution-flow)
 5. [Frontend](#frontend)
-6. [Installation & Setup](#installation--setup)
+6. [Setup](#setup)
 7. [Future Enhancements](#future-enhancements)
 8. [Contributors](#contributors)
 9. [License](#license)
@@ -107,18 +107,12 @@ This project enhances crowd management, crime prevention, and workplace monitori
 ---
 
 ##  Installation & Setup
-### Prerequisites
-- Python 3.7+
-- FastAPI
-- OpenCV
-- Uvicorn
-- Ultralytics YOLO
 
 ### Steps
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-repo/cctv-surveillance-ai.git
-   cd cctv-surveillance-ai
+   git clone https://github.com/Nikhilg27425/eagle_eye.git
+   cd eagle_eye.git
    ```
 2. **Install dependencies**
    ```bash
