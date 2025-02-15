@@ -161,4 +161,10 @@ For any inquiries or collaborations, reach out to:
 
 ---
 
+## Video for reference
+[Video](https://drive.google.com/file/d/1AnQvnPNLBdUuEN7PmX_lZ-t64Qv0pSF6/view)
+
+
+---
+
 🔹 _Enhancing security with AI-powered surveillance!_ 🚀
