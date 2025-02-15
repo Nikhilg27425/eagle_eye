@@ -52,6 +52,7 @@ def get_density_map(frame, net, device):
 torch.backends.cudnn.enabled = True
 torch.backends.cudnn.benchmark = False
 net, device = load_model('model_crowd.h5')
+
 # def estimate_people_count(frame):
 #     print("Processing frame for people count...")  # Debug print
 
@@ -65,7 +66,7 @@ net, device = load_model('model_crowd.h5')
 #     print(f"Estimated count: {et_count}")  # Print count
 #     return et_count
 
-net, device = load_model('cmtl_shtechA_204.h5')  # Load model with CPU
+net, device = load_model('model_crowd.h5')  # Load model with CPU
 
 def estimate_people_count(frame):
     print("Processing frame for people count...")

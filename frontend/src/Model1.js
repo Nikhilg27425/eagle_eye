@@ -83,8 +83,8 @@ function CrimePrevention() {
             <img className="burglary" src={previewImage || burglary} alt="Burglary" />
               {/* <img className="burglary" src={burglary} alt="Burglary" /> */}
             </div>
-            <div className="boxes" id="box2">
-              <h2 className="location-heading">Enter location</h2>
+            <div className="boxes" id="box22">
+              {/* <h2 className="location-heading">Enter location</h2>
               <div className="label-box">
                 <label className="labels">Address:</label>
                 <input
@@ -111,8 +111,8 @@ function CrimePrevention() {
                   value={formData.state}
                   onChange={handleInputChange}
                 />
-              </div>
-              <div className="label-box">
+              </div> */}
+              {/* <div className="label-box">
                 <label className="labels">Camera No.:</label>
                 <input
                   className="input-box"
@@ -120,7 +120,7 @@ function CrimePrevention() {
                   value={formData.cameraNo}
                   onChange={handleInputChange}
                 />
-              </div>
+              </div> */}
               <div className="file-input">
                 <input type="file" onChange={handleFileChange} accept="image/*" />
               </div>
@@ -138,11 +138,11 @@ function CrimePrevention() {
               </div>
             )} */}
             <div className="result-box">
-            <input className="result-box" value={classResult} readOnly />
+            <input className="result-box" id="result_one" value={classResult} readOnly />
             </div>
           </div>
         </div>
-        <button className="button" id="Report-button">Report</button>
+        {/* <button className="button" id="Report-button">Report</button> */}
       </div>
       <div className="footer-box">
         <Footer />
