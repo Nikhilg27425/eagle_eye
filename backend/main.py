@@ -6,11 +6,6 @@ from ultralytics import YOLO
 import uvicorn
 from fastapi.middleware.cors import CORSMiddleware
 
-
-
-
-
-
 app = FastAPI()
 
 app.add_middleware(

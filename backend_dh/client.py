@@ -8,7 +8,6 @@ SERVER_URL = "http://127.0.0.1:8000"
 CAMERA_ID = "cam_1"
 
 
-
 def capture_and_send():
     cap = cv2.VideoCapture(0)
 
